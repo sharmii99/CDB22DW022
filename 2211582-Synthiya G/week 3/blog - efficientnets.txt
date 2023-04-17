@@ -1,0 +1,10 @@
+EfficientNets are a family of deep neural network architectures that were designed to achieve state-of-the-art performance on image classification tasks with a smaller number of parameters 
+
+ key idea behind EfficientNets is to scale the depth, width, and resolution of the neural network in a balanced way to achieve better performance. The authors of the EfficientNet paper proposed a compound scaling method that uses a combination of these three parameters to find the best balance between accuracy and computational efficiency.
+
+In this method, the depth of the network is increased by adding more layers, the width is increased by using more channels in each layer, and the resolution is increased by using higher resolution images as input. These three parameters are scaled together to maintain a balanced model architecture.
+
+EfficientNets also use a novel compound scaling method to optimize the coefficients of the scaling parameters, which results in better performance with fewer parameters and less computational cost.
+
+Overall, the EfficientNets are a promising family of deep neural network architectures that achieve state-of-the-art performance on image classification tasks with fewer resources, which makes them more accessible to a wider range of applications and use cases.
+
